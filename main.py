@@ -7,7 +7,7 @@ def retrieve_data(symbol, frequency):
     url = f"https://open-api.coinglass.com/public/v2/perpetual_market?symbol={symbol}"
     headers = {
         "accept": "application/json",
-        "coinglassSecret": "5a9a638876ef4e0bb52e25ec01b082a5"
+        "coinglassSecret": "<YOUR-SECRET-KEY>"
     }
 
     while True:
