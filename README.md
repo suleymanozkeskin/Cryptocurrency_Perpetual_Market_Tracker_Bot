@@ -22,11 +22,7 @@ Run the main.py file by typing the following command in the terminal:
 
 python main.py
   
-  
-Explanation of the bot:
-
-The bot uses the open API from coinglass.com to retrieve real-time data for a specific cryptocurrency. The data is then stored in a CSV file and can be used to track the performance of the cryptocurrency.
-  
+ 
 
 The retrieve_data function takes two parameters: symbol and frequency. The symbol parameter specifies the cryptocurrency to track and the frequency parameter specifies how often the data should be retrieved.
 
