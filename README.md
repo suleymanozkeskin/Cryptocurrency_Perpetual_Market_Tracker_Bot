@@ -7,19 +7,18 @@ Clone the repository to your local machine.
 
 Install the required dependencies by running the following command:
 
-Copy code
+
 pip install pandas requests
 Open the main.py file and edit the retrieve_data function with the desired symbol and frequency.
 
-scss
-Copy code
+
+
 retrieve_data("BTC", 6)
 The first parameter specifies the cryptocurrency symbol and the second parameter specifies the frequency in seconds that the data should be retrieved.
 
 Run the main.py file by typing the following command in the terminal:
 
-css
-Copy code
+
 python main.py
 Explanation of the bot
 The bot uses the open API from coinglass.com to retrieve real-time data for a specific cryptocurrency. The data is then stored in a CSV file and can be used to track the performance of the cryptocurrency.
