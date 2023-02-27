@@ -1,4 +1,5 @@
-Cryptocurrency Perpetual Market Tracker Bot
+<h2>Cryptocurrency Perpetual Market Tracker Bot<h2>
+
 This bot retrieves real-time data from the cryptocurrency perpetual market using the open API from coinglass.com. The data is stored in a CSV file and can be used to track the performance of a specific cryptocurrency.
 
 How to run
