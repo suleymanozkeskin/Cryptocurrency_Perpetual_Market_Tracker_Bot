@@ -7,15 +7,13 @@ This bot retrieves real-time data from the cryptocurrency perpetual market using
 
 Clone the repository to your local machine.
 
-Install the required dependencies by running the following command:
+## Install the required dependencies by running the following command:
 
+      pip install pandas requests
+      
+## Open the main.py file and edit the retrieve_data function with the desired symbol and frequency.
 
-  pip install pandas requests
-  Open the main.py file and edit the retrieve_data function with the desired symbol and frequency.
-
-
-
-retrieve_data("BTC", 6)
+      retrieve_data("BTC", 6)
   
 The first parameter specifies the cryptocurrency symbol and the second parameter specifies the frequency in seconds that the data should be retrieved.
 
