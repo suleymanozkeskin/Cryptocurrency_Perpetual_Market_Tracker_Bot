@@ -10,8 +10,8 @@ Clone the repository to your local machine.
 Install the required dependencies by running the following command:
 
 
-pip install pandas requests
-Open the main.py file and edit the retrieve_data function with the desired symbol and frequency.
+  pip install pandas requests
+  Open the main.py file and edit the retrieve_data function with the desired symbol and frequency.
 
 
 
